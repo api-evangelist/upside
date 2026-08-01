@@ -1,9 +1,26 @@
 aid: upside
 name: Upside
-description: 'Upside is a company surfaced as a portfolio company of bessemer-venture-partners, general-catalyst
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Upside is a two-sided commerce platform that connects brick-and-mortar
+  retailers with consumers through personalized cash-back offers on everyday purchases
+  like fuel, groceries, and dining. More than 5 million users have earned over $1B
+  in cash back through its app, while retailers use the Upside Marketplace, Measurement,
+  and Loyalty+ products to drive proven incremental profit. For technology partners,
+  Upside offers a partner-gated, enterprise-ready API that delivers personalized,
+  evergreen offers inside partner apps, though it publishes no public developer portal
+  or self-serve API documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/upside/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/63ff7b678c2b03cb7b788c27/653c2c3f9b958444442ded87_thumbnail-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Cash Back
+- Rewards
+- Loyalty
+- Retail
+- Fuel
+- Grocery
+- Dining
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.upside.com/
+- type: Blog
+  url: https://www.upside.com/blog
+- type: Support
+  url: https://support.upside.com/hc/en-us
+- type: Login
+  url: https://dashboard.upside.com/login
+- type: TermsOfService
+  url: https://www.upside.com/data-and-security/terms
+- type: PrivacyPolicy
+  url: https://www.upside.com/data-and-security/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/upside-services
+- type: Partners
+  url: https://www.upside.com/partnerships/tech-integration
+- type: TrustCenter
+  url: security/upside-trust-center.yml
+- type: Compliance
+  url: https://trust.upside.com/
+- type: Security
+  url: https://client.inspectiv.com/vdp/upside
+- type: VulnerabilityDisclosure
+  url: security/upside-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/upside-domain-security.yml
+- type: LLMsTxt
+  url: llms/upside-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

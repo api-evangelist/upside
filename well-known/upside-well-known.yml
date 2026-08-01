@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+host: https://www.upside.com
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+notes: >-
+  Probed 2026-07-21. Upside publishes no /.well-known/ discovery surface on
+  its primary host. upside.com (apex) /.well-known/security.txt also returned
+  404. Candidate developer hosts (developer/developers/api/docs/status/
+  security/partners.upside.com) do not resolve; trust.upside.com resolves
+  (200) and is captured in security/upside-trust-center.yml.

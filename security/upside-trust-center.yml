@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.upside.com/
+url: https://trust.upside.com/
+platform: SafeBase by Drata
+certifications:
+- SOC 2 Type 2
+- ISO/IEC 27001:2022
+- PCI DSS v4.0.1
+- CCPA
+contacts:
+- trust@upside.com
+- security@upside.com
+evidence:
+- source: https://trust.upside.com/
+  keywords:
+  - soc 2
+  - iso/iec 27001
+  - pci dss
+  - pci-dss
+  - trust center
+notes: >-
+  Upside publishes a SafeBase-hosted trust center at trust.upside.com listing
+  SOC 2 Type 2, ISO/IEC 27001:2022, PCI DSS v4.0.1, and CCPA posture, with
+  trust@upside.com for trust-center access and security@upside.com as the
+  security contact. Confirmed by automated probe and manual page review,
+  2026-07-21 (HTTP 200).

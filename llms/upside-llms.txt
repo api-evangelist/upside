@@ -1,0 +1,31 @@
+# Upside
+
+> Upside (upside.com) is a consumer cash-back rewards platform connecting retailers with consumers on everyday purchases — fuel, grocery, and restaurant — used by more than 5 million people. For businesses it offers the Upside Marketplace, Measurement, Loyalty+, and partner integrations delivered through a partner-gated, enterprise-ready API for personalized offers; no public developer portal or self-serve API documentation is published.
+
+## Company
+
+- [Website](https://www.upside.com/): Consumer cash-back app for gas, grocery, and dining
+- [For Business](https://www.upside.com/business): Upside Marketplace, Partner Integrations (API), Measurement, Loyalty+
+- [Tech Integration Partnerships](https://www.upside.com/partnerships/tech-integration): Partner-gated "enterprise-ready API" for personalized, evergreen offers
+- [Business Dashboard](https://dashboard.upside.com/login): Merchant/partner login
+- [Support Center](https://support.upside.com/hc/en-us): Help center
+- [Blog](https://www.upside.com/blog): Company blog
+- [Newsroom](https://www.upside.com/newsroom): Press and announcements
+
+## Security & Trust
+
+- [Trust Center](https://trust.upside.com/): SOC 2 Type 2, ISO/IEC 27001:2022, PCI DSS v4.0.1, CCPA (SafeBase-hosted)
+- [Vulnerability Disclosure](https://client.inspectiv.com/vdp/upside): Inspectiv-hosted VDP; security@upside.com
+- [Terms of Service](https://www.upside.com/data-and-security/terms)
+- [Privacy Policy](https://www.upside.com/data-and-security/privacy-policy)
+
+## API Evangelist Artifacts
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/upside/refs/heads/main/apis.yml): Machine-readable index of this profile
+- [Trust center artifact](https://raw.githubusercontent.com/api-evangelist/upside/refs/heads/main/security/upside-trust-center.yml)
+- [Vulnerability disclosure artifact](https://raw.githubusercontent.com/api-evangelist/upside/refs/heads/main/security/upside-vulnerability-disclosure.yml)
+
+## Notes
+
+- Upside's API is partner-gated: access is arranged through partnership channels, not a public developer portal.
+- No OpenAPI, SDK packages, CLI, webhooks/AsyncAPI, or /.well-known/ discovery documents are publicly published (probed 2026-07-21).
