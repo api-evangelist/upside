@@ -1,7 +1,12 @@
 generated: '2026-07-21'
 method: searched
 host: https://www.upside.com
-documents:
+notes: Probed 2026-07-21. Upside publishes no /.well-known/ discovery surface on its primary host. upside.com
+  (apex) /.well-known/security.txt also returned 404. Candidate developer hosts (developer/developers/api/docs/status/
+  security/partners.upside.com) do not resolve; trust.upside.com resolves (200) and is captured in security/upside-trust-center.yml.
+hosts:
+- host: https://www.upside.com
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -12,11 +17,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
-  - path: /llms.txt
-    status: 404
-notes: >-
-  Probed 2026-07-21. Upside publishes no /.well-known/ discovery surface on
-  its primary host. upside.com (apex) /.well-known/security.txt also returned
-  404. Candidate developer hosts (developer/developers/api/docs/status/
-  security/partners.upside.com) do not resolve; trust.upside.com resolves
-  (200) and is captured in security/upside-trust-center.yml.
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
